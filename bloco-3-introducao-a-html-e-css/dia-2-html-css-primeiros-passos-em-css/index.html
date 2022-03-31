@@ -5,21 +5,46 @@
     <title>HTML</title>
     <style>
       h1{
+        font-family: sans-serif;
         color: orange;
         height: 65px;
       }
-      ul,p{
+      #question{
         background-color: green;
+      }
+      p{
+        size: 3em;
+        font-weight: 600;
+        text-align: center;
+        text-decoration:underline white;
+        line-height: 3;
+       
+      } 
+      ul{
+        font-style:oblique;
+        line-height: 5;
+      }
+      body{ 
+        font-size: 16px;
+      }
+      #yellow{
+        background-color: yellow;
+      }
+      #brown{
+        background-color: brown;
+      }
+      #red{
+        background-color: red;
       }
     </style>
   </head>
   <body>
     <h1>Exercícios 3.2</h1>
-    <p>Qual é a sua cor favorita?</p>
-    <ul>
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+    <p id="question">Qual é a sua cor favorita?</p>
+    <ul id="question">
+      <li id="yellow">Amarelo</li>
+      <li id="red">Vermelho</li>
+      <li id="brown">Marrom</li>
     </ul>
   </body>
 </html>
