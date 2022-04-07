@@ -1,0 +1,199 @@
+body{    
+    background-color: rgb(233, 210, 238);
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#heading {
+    background-color: rgb(81, 20, 96);
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    color: rgb(236, 157, 73);
+    
+    
+}
+#heading h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+nav ul {
+    text-align: start;
+    list-style: none;
+    padding-left: 10px;
+}
+nav ul li {
+    text-decoration: none;
+    text-align: ;
+    border-radius: 25%;
+    border:2px solid rgb(121, 44, 141);
+    padding: 4px;
+    margin-right: 50px;
+    display: inline-block;
+    font-weight:bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav ul li:hover{
+    background-color: rgb(233, 210, 238);
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(236, 157, 73) ;
+}
+nav ul li a:hover{
+    color: rgb(81, 20, 96);
+}
+
+main {
+    margin-top: 13%;
+}
+.titles{
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(236, 157, 73);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 1px 1px 1px rgb(81, 20, 96);
+}
+main p {
+    color: rgb(81, 20, 96);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+main p:hover{
+    background-color: rgb(243, 229, 247);
+}
+article {
+    border-radius: 100px;
+    border: 2px solid rgb(81, 20, 96);
+    margin:10px
+
+}
+
+section {
+    border-bottom: 2px dashed rgb(81, 20, 96);
+    margin:10px;
+   
+}
+footer {
+    border-top: 3px solid rgb(236, 157, 73);
+    width:100%;
+    background-color: rgb(81, 20, 96);
+    font-size: 20px;
+    color: rgb(81, 20, 96);
+    text-shadow: 1px 1px 1px rgb(236, 157, 73);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding-bottom: 5px;
+
+}
+aside{
+    opacity: 80%;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: block;
+    background-color: rgb(233, 210, 238);
+    border: 2px solid rgb(81, 20, 96);
+    width: 100px;
+    text-align: center;
+    margin-top: 13%;
+    top:0;
+    position: fixed;
+    right: 0%;
+    margin-right: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#paralel-box{
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgb(81, 20, 96) ;
+    color: rgb(236, 157, 73);
+}
+#paralel-box:hover{
+    text-decoration: underline;
+}
+#refs{
+    text-align: center;
+    border-radius: 100px;
+    border: 2px solid rgb(81, 20, 96);
+}
+#refs ul{
+    list-style: none;
+   
+}
+.ref-link{
+    text-decoration: none;
+    color: rgb(81, 20, 96);
+}
+.ref-link:hover {
+    text-decoration: underline;
+}
+#last-article {
+    border:none;
+}
+table {
+    margin-top: 4%;
+    float: left;
+    border-radius: 10px;
+    border: 2px solid rgb(81, 20, 96);
+    background-color: rgb(236, 157, 73);
+    margin-left: 10px;
+}
+td {
+    border-radius: 5px;
+    padding: 2px;
+    color: rgb(81, 20, 96);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-color:rgb(233, 210, 238)
+}
+th{
+    border-radius: 10px;
+    background-color: rgb(81, 20, 96);
+}
+.tax {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tax-cell{
+    font-weight: bold;
+}
+#img-main{
+    border-radius: 25%;
+    width:192px;
+    float: right;
+    border: 2px solid rgb(81, 20, 96);
+    margin-right: 10px;
+    margin-top: 4%;
+}
+#img-punch{
+    display: block;
+    border-radius: 5%;
+    border: 2px solid rgb(81, 20, 96);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#img-eye {
+    border-radius: 50%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    border: 2px solid rgb(81, 20, 96);
+}
+#img-eyes {
+    border-radius: 50%;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: 2px solid rgb(81, 20, 96);
+}
